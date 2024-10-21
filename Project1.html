@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h2>Sign up</h2>
+            </legend>
+            <label for="name">Name: </label>
+            <br/>
+            <input type="text" id="name" placeholder="full name" size="30">
+            <br/>
+            <br/>
+
+            <label for="email">email: </label>
+            <br/>
+            <input type="text" id="email" placeholder="gmail id" size="30">
+            <br/>
+            <br/>
+
+            <label for="password">Password: </label>
+            <br/>
+            <input type="text" id="password" placeholder="a characters" size="30">
+            <br/>
+            <br/>
+
+            <label for="confirmPassword">Confirm Password: </label>
+            <br/>
+            <input type="text" id="confirmPassword" placeholder="a characters" size="30">
+            <br/>
+            <br/>
+
+            <label for="dob">Date of Birth: </label>
+            <br/>
+            <input type="date" id="dob">
+            <br/>
+            <br/>
+
+            <div>
+                <label for="gender">Gender</label>
+                <br/>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+
+                <input type="radio" id="others" name="gender">
+                <label for="others">Others</label>
+            </div>
+            <br/>
+
+            <label for="img">Insert your photo:</label>
+            <br/>
+            <input type="file" id="img" name="img" accept="image/png, image/jpeg">
+            <br/>
+            <br/>
+
+            <label for="file">Insert your resume:</label>
+            <br/>
+            <input type="file" id="file" name="file" accept="image/*, .pdf, .word">
+            <br/>
+            <br/>
+
+            <label for="security">Security Questions:</label>
+            <select id="security" value="security">
+                <option value="">Select</option>
+                <option value="q1">What was your first pet name?</option>
+                <option value="q2">What was your primary school name?</option>
+                <option value="q3">What is your favourite colour?</option>
+            </select>
+            <br/>
+            <textarea id="text1" cols="50" rows="10"></textarea>
+            <br/>
+            <br/>
+
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">I agree terms and conditions</label>
+            <br/>
+
+            <button id="button1" value="register">Register</button>
+        </fieldset>
+    </form>
+</body>
+</html>
